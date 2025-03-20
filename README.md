@@ -10,4 +10,4 @@ Materials Needed: Computer with Python installed, a notebook for notes, and the 
 
 Certification path:
 https://pythoninstitute.org/pcep 
-Python Certified Entry Level Programmer
+Python Certified Entry Level Programmer - https://youtu.be/8qG463VRPjI

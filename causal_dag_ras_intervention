@@ -1,0 +1,30 @@
+// Causal DAG for RAS Intervention
+digraph {
+	I [label="Intervention
+(UFC Subcommittee & SAB)"]
+	FI [label="Faculty Input
+in SOPs"]
+	CQ [label="Communication
+Quality"]
+	FS [label="Faculty
+Satisfaction"]
+	AB [label="Administrative
+Burden"]
+	FRA [label="Financial Report
+Accuracy"]
+	FE [label="Faculty
+Experience Level"]
+	RUM [label="RAS Unit
+Maturity"]
+	I -> FI
+	I -> CQ
+	FI -> AB
+	FI -> FRA
+	CQ -> FS
+	AB -> FS
+	FRA -> FS
+	FE -> I
+	FE -> FS
+	RUM -> I
+	RUM -> FS
+}
